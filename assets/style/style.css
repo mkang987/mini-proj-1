@@ -1,0 +1,76 @@
+/* Universal Selector */
+* {
+    margin:0;
+    padding:0;  
+  }
+
+
+/* Element Selectors */
+body {
+    background-color: whitesmoke;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+  }
+
+header, footer {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color: #ff5c4d;
+    line-height: 60px;
+}
+
+footer {
+    border-top: 10px solid #dad870;
+    font-weight: 700;
+}
+
+header {
+    border-bottom: 10px solid #dad870;
+    position:fixed;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+  }
+
+form {
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid orangered;
+    width: 600px;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+h1,h2 {
+    margin-right: 40px;
+}
+
+main {
+    padding: 60px 0;
+  }
+
+
+/* Class Selectors */
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
